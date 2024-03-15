@@ -22,7 +22,7 @@ export default function SalesArea() {
             </div>
           </div>
         </div>
-        <div class="flex flex-col ml-[10px] overflow-x-auto text-xs gap-1 lg:gap-[6px] lg:ml-[20px]">
+        <div class="flex flex-col ml-[20px] overflow-x-auto text-xs gap-1 lg:gap-[6px] lg:ml-[20px]">
           <span>80</span>
           <span>60</span>
           <span>40</span>
@@ -30,65 +30,89 @@ export default function SalesArea() {
           <span>0</span>
         </div>
         <div class="relative ml-[35px]">
-          <div class="flex gap-[1px] absolute left-[2px] lg:left-[40px] bottom-[4px]">
+          <div class="flex gap-[1px] absolute left-[32px] lg:left-[40px] bottom-[4px]">
             <span class="w-[1px] h-9 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
             <span class="w-[1px] h-10 bg-purple-500 xl:w-[3px]"></span>
-            <span class="text-xs absolute bottom-[-20px] left-[-12px]">Jan</span>
+            <span class="text-xs absolute bottom-[-20px] left-[-12px]">
+              Jan
+            </span>
           </div>
-          <div class="flex gap-[1px] absolute left-[27px] lg:left-[80px] bottom-[4px]">
+          <div class="flex gap-[1px] absolute left-[57px] lg:left-[80px] bottom-[4px]">
             <span class="w-[1px] h-10 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
             <span class="w-[1px] h-10 bg-purple-500 xl:w-[3px]"></span>
-            <span class="text-xs absolute bottom-[-20px] left-[-12px]">Feb</span>
+            <span class="text-xs absolute bottom-[-20px] left-[-12px]">
+              Feb
+            </span>
           </div>
-          <div class="flex gap-[1px] absolute left-[52px] lg:left-[120px] bottom-[4px]">
-          <span class="w-[1px] h-10 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
+          <div class="flex gap-[1px] absolute left-[82px] lg:left-[120px] bottom-[4px]">
+            <span class="w-[1px] h-10 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
             <span class="w-[1px] h-11 bg-purple-500 xl:w-[3px]"></span>
-            <span class="text-xs absolute bottom-[-20px] left-[-12px]">Mar</span>
+            <span class="text-xs absolute bottom-[-20px] left-[-12px]">
+              Mar
+            </span>
           </div>
-          <div class="flex gap-[1px] absolute left-[77px] lg:left-[160px] bottom-[4px]">
-          <span class="w-[1px] h-6 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
+          <div class="flex gap-[1px] absolute left-[107px] lg:left-[160px] bottom-[4px]">
+            <span class="w-[1px] h-6 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
             <span class="w-[1px] h-6 bg-purple-500 xl:w-[3px]"></span>
-            <span class="text-xs absolute bottom-[-20px] left-[-12px]">Apr</span>
+            <span class="text-xs absolute bottom-[-20px] left-[-12px]">
+              Apr
+            </span>
           </div>
-          <div class="flex gap-[1px] absolute left-[102px] lg:left-[200px] bottom-[4px]">
-          <span class="w-[1px] h-14 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
+          <div class="flex gap-[1px] absolute left-[132px] lg:left-[200px] bottom-[4px]">
+            <span class="w-[1px] h-14 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
             <span class="w-[1px] h-16 bg-purple-500 xl:w-[3px]"></span>
-            <span class="text-xs absolute bottom-[-20px] left-[-12px]">May</span>
+            <span class="text-xs absolute bottom-[-20px] left-[-12px]">
+              May
+            </span>
           </div>
-          <div class="flex gap-[1px] absolute left-[127px] lg:left-[240px] bottom-[4px]">
-          <span class="w-[1px] h-16 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
+          <div class="flex gap-[1px] absolute left-[162px] lg:left-[240px] bottom-[4px]">
+            <span class="w-[1px] h-16 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
             <span class="w-[1px] h-[70px] bg-purple-500 xl:w-[3px]"></span>
-            <span class="text-xs absolute bottom-[-20px] left-[-12px]">Jun</span>
+            <span class="text-xs absolute bottom-[-20px] left-[-12px]">
+              Jun
+            </span>
           </div>
-          <div class="flex gap-[1px] absolute left-[152px] lg:left-[280px] bottom-[4px]">
-          <span class="w-[1px] h-9 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
+          <div class="flex gap-[1px] absolute left-[192px] lg:left-[280px] bottom-[4px]">
+            <span class="w-[1px] h-9 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
             <span class="w-[1px] h-10 bg-purple-500 xl:w-[3px]"></span>
-            <span class="text-xs absolute bottom-[-20px] left-[-12px]">Jul</span>
+            <span class="text-xs absolute bottom-[-20px] left-[-12px]">
+              Jul
+            </span>
           </div>
-          <div class="flex gap-[1px] absolute left-[177px] lg:left-[320px] bottom-[4px]">
-          <span class="w-[1px] h-10 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
+          <div class="flex gap-[1px] absolute left-[222px] lg:left-[320px] bottom-[4px]">
+            <span class="w-[1px] h-10 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
             <span class="w-[1px] h-11 bg-purple-500 xl:w-[3px]"></span>
-            <span class="text-xs absolute bottom-[-20px] left-[-15px]">Aug</span>
+            <span class="text-xs absolute bottom-[-20px] left-[-15px]">
+              Aug
+            </span>
           </div>
-          <div class="flex gap-[1px] absolute left-[202px] lg:left-[360px] bottom-[4px]">
-          <span class="w-[1px] h-12 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
+          <div class="flex gap-[1px] absolute left-[252px] lg:left-[360px] bottom-[4px]">
+            <span class="w-[1px] h-12 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
             <span class="w-[1px] h-[50px] bg-purple-500 xl:w-[3px]"></span>
-            <span class="text-xs absolute bottom-[-20px] left-[-15px]">Sep</span>
+            <span class="text-xs absolute bottom-[-20px] left-[-15px]">
+              Sep
+            </span>
           </div>
-          <div class="flex gap-[1px] absolute left-[227px] lg:left-[400px] bottom-[4px]">
-          <span class="w-[1px] h-12 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
+          <div class="flex gap-[1px] absolute left-[282px] lg:left-[400px] bottom-[4px]">
+            <span class="w-[1px] h-12 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
             <span class="w-[1px] h-[52px] bg-purple-500 xl:w-[3px]"></span>
-            <span class="text-xs absolute bottom-[-20px] left-[-15px]">Oct</span>
+            <span class="text-xs absolute bottom-[-20px] left-[-15px]">
+              Oct
+            </span>
           </div>
-          <div class="flex gap-[1px] absolute left-[252px] lg:left-[440px] bottom-[4px]">
-          <span class="w-[1px] h-6 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
+          <div class="flex gap-[1px] absolute left-[312px] lg:left-[440px] bottom-[4px]">
+            <span class="w-[1px] h-6 bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
             <span class="w-[1px] h-7 bg-purple-500 xl:w-[3px]"></span>
-            <span class="text-xs absolute bottom-[-20px] left-[-15px]">Nov</span>
+            <span class="text-xs absolute bottom-[-20px] left-[-15px]">
+              Nov
+            </span>
           </div>
-          <div class="flex gap-[1px] absolute left-[277px] lg:left-[480px] bottom-[4px]">
-          <span class="w-[1px] h-[52px] bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
+          <div class="flex gap-[1px] absolute left-[342px] lg:left-[480px] bottom-[4px]">
+            <span class="w-[1px] h-[52px] bg-purple-300 absolute bottom-[-0px] left-[-5px] xl:w-[3px]"></span>
             <span class="w-[1px] h-[55px] bg-purple-500 xl:w-[3px]"></span>
-            <span class="text-xs absolute bottom-[-20px] left-[-15px]">Dec</span>
+            <span class="text-xs absolute bottom-[-20px] left-[-15px]">
+              Dec
+            </span>
           </div>
         </div>
       </div>

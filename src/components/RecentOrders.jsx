@@ -2,14 +2,14 @@ import { Table } from "flowbite-react";
 
 export default function RecentOrders() {
   return (
-    <div className="max-w-6xl mx-auto mt-5 border rounded-lg h-[260px] flex flex-col table-auto md:mx-auto">
+    <div className="max-w-6xl mx-auto mt-5 border rounded-lg h-[340px] lg:h-[260px] flex flex-col table-auto md:mx-auto">
       <div className="my-4 ml-4 flex flex-col">
         <span className="font-semibold">Recent Orders</span>
         <span className="text-xs text-slate-500">
           Here are the most recent financial transaction
         </span>
       </div>
-      <div className="mx-4">
+      <div className="mx-4 overflow-x-auto">
         <Table className="">
           <Table.Head>
             <Table.HeadCell className="bg-purple-900 text-white capitalize">
@@ -28,11 +28,11 @@ export default function RecentOrders() {
               Status
             </Table.HeadCell>
           </Table.Head>
-          <Table.Body className="divide-y">
+          <Table.Body className="divide-y border border-l-2">
             <Table.Row>
               <Table.Cell>
                 <div className="flex gap-2">
-                  <span className="w-7 h-7 bg-purple-500 rounded-full"></span>
+                  <span className="lg:w-7 lg:h-7 w-[30px] h-[20px]  bg-purple-500 rounded-full"></span>
                   <div className="flex flex-col">
                     <span className="text-slate-500 text-xs">Product Name</span>
                     <span className="text-slate-500 text-xs">
@@ -59,7 +59,7 @@ export default function RecentOrders() {
             <Table.Row>
               <Table.Cell>
                 <div className="flex gap-2">
-                  <span className="w-7 h-7 bg-purple-500 rounded-full"></span>
+                  <span className="lg:w-7 lg:h-7 w-[30px] h-[20px]  bg-purple-500 rounded-full"></span>
                   <div className="flex flex-col">
                     <span className="text-slate-500 text-xs">Product Name</span>
                     <span className="text-slate-500 text-xs">
